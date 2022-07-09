@@ -28,7 +28,7 @@ app.post("/", function(req, res){
   const day = today.getDate();
   var month = today.toLocaleString('default', { month: 'long' });
   var superscript = "";
-  var time = today.toLocaleString('default', { hour: 'numeric', minute: 'numeric', hour12: true })
+  var time = today.toLocaleTimeString('default', { hour: 'numeric', minute: 'numeric', hour12: true })
 
   if (day == 1) {
     var superscript = "st";
