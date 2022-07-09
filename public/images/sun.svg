@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   fill="currentColor"
+   class="bi bi-sun"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5433"
+   sodipodi:docname="sun.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5437" />
+  <sodipodi:namedview
+     id="namedview5435"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.0664062"
+     inkscape:cx="67.505732"
+     inkscape:cy="138.10955"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5433" />
+  <path
+     d="m 8.0000001,11 a 3.0000001,3.0000001 0 1 1 0,-6 3,3 0 0 1 0,6 z m 0,1 a 4.0000002,4.0000002 0 1 0 0,-8 4.0000002,4.0000002 0 0 0 0,8 z m 0,-12 a 0.5,0.5 0 0 1 0.5,0.49999997 V 2.5 a 0.5,0.5 0 0 1 -1,0 V 0.49999997 A 0.5,0.5 0 0 1 8.0000001,0 Z m 0,13 a 0.5,0.5 0 0 1 0.5,0.5 v 2 a 0.5,0.5 0 0 1 -1,0 v -2 a 0.5,0.5 0 0 1 0.5,-0.5 z M 16,8 a 0.5,0.5 0 0 1 -0.5,0.5 h -2 a 0.5,0.5 0 0 1 0,-1 h 2 A 0.5,0.5 0 0 1 16,8 Z M 3.0000001,8 a 0.5,0.5 0 0 1 -0.5,0.5 H 0.5 a 0.5,0.5 0 0 1 0,-1 h 2.0000001 a 0.5,0.5 0 0 1 0.5,0.5 z M 13.657,2.343 a 0.5,0.5 0 0 1 0,0.707 L 12.243,4.465 A 0.50027817,0.50027817 0 1 1 11.536,3.757 L 12.95,2.343 a 0.5,0.5 0 0 1 0.707,0 z m -9.1929999,9.193 a 0.5,0.5 0 0 1 0,0.707 l -1.414,1.414 a 0.5,0.5 0 0 1 -0.707,-0.707 l 1.414,-1.414 a 0.5,0.5 0 0 1 0.707,0 z M 13.657,13.657 a 0.5,0.5 0 0 1 -0.707,0 l -1.414,-1.414 a 0.5,0.5 0 0 1 0.707,-0.707 l 1.414,1.414 a 0.5,0.5 0 0 1 0,0.707 z M 4.4640001,4.465 a 0.5,0.5 0 0 1 -0.707,0 l -1.414,-1.415 a 0.5,0.5 0 1 1 0.707,-0.707 l 1.414,1.414 a 0.5,0.5 0 0 1 0,0.708 z"
+     id="path5431"
+     style="fill:#ffffff;fill-opacity:1" />
+</svg>

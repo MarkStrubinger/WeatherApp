@@ -1,0 +1,30 @@
+<%- include("header") -%>
+
+<body class="min-h-screen text-center font-montserrat text-white object-center bg-gradient-to-t from-cyan-200 to-cyan-50">
+
+  <div class="container place-content-center content-center">
+
+    <p class="text-3xl mb-10 pt-10 mx-auto drop-shadow-lg"> <%= day %>, <%= numday %><sup><%= superscript %></sup> <%= month %> </p>
+    <p class="text-5xl mb-10 pt-10 mx-auto drop-shadow-lg"> <%= time %> </p>
+    <p class="text-3xl mb-10 pt-10 mx-auto drop-shadow-lg"> <%= location %> </p>
+    <%- image %>
+    <p class="text-sm italic mx-auto drop-shadow-lg"><%= description %> </p>
+    <p class="text-5xl pt-10 mx-auto drop-shadow-lg"><%= temperature %>°F </p>
+    <p class="text-sm italic mt-20 mx-auto drop-shadow-lg">Heat Index</p>
+    <div class="flex space-x-0 place-content-center">
+      <div class="pt-11 mr-4 drop-shadow-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-thermometer-sun z-10 absolute bottom-11 right-1" viewBox="0 0 16 16">
+          <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V2.5a.5.5 0 0 1 1 0v8.585A1.5 1.5 0 0 1 5 12.5z" />
+          <path
+            d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1zm5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5zm4.243 1.757a.5.5 0 0 1 0 .707l-.707.708a.5.5 0 1 1-.708-.708l.708-.707a.5.5 0 0 1 .707 0zM8 5.5a.5.5 0 0 1 .5-.5 3 3 0 1 1 0 6 .5.5 0 0 1 0-1 2 2 0 0 0 0-4 .5.5 0 0 1-.5-.5zM12.5 8a.5.5 0 0 1 .5-.5h1a.5.5 0 1 1 0 1h-1a.5.5 0 0 1-.5-.5zm-1.172 2.828a.5.5 0 0 1 .708 0l.707.708a.5.5 0 0 1-.707.707l-.708-.707a.5.5 0 0 1 0-.708zM8.5 12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5z" />
+        </svg>
+        <svg class="-z-10 absolute top-11 right-px rounded-full fill-red-500" width="32" height="32">
+          <rect width="32" height="32" />
+        </svg>
+      </div>
+        <p title="Heat Index" class="text-3xl mb-10 pt-10 mx-auto drop-shadow-lg"><%= realTemp %>°F </p>
+    </div>
+    <p class="text-xl mb-10 pt-10 mx-auto drop-shadow-lg">Copyright 2022</p>
+  </div>
+
+  <%- include("footer") -%>

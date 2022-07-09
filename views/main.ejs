@@ -1,0 +1,20 @@
+<%- include("header") -%>
+
+<body class="min-h-screen text-center font-montserrat text-white object-center bg-gradient-to-t from-green-300 to-emerald-200">
+
+  <!-- form to collect information and post it to server -->
+  <div class="w-screen h-screen place-content-center content-center">
+    <h1 class="text-5xl mb-10 pt-10 drop-shadow-lg">Your Weather App</h1>
+    <div class="w-80 h-50 mx-auto place-content-center">
+      <form class="w-full max-w-sm" action="/" method="post">
+        <div class="flex items-center border-b border-emerald-500 py-2">
+          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" id="cityInput" type="text" placeholder="Search by City Name" name="cityName" value="">
+          <button class="flex-shrink-0 bg-emerald-500 hover:bg-emerald-700 border-emerald-500 hover:border-emerald-700 text-sm border-4 text-white py-1 px-2 rounded" type="submit" name="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<%- include("footer") -%>
